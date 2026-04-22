@@ -32,10 +32,6 @@ The project uses a **Makefile-driven** workflow, allowing for easy simulation an
 - **ModelSim / Questa SIM** for simulation.
 - **Cygwin/Bash** environment for executing the Makefile.
 
-### Simulation Commands
-To compile the design and run the simulation in ModelSim:
-```bash
-# Run simulation in shell mode
 TARGETS:
        help            - Show the help (this text).
 
