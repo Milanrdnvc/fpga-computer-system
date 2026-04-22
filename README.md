@@ -32,6 +32,7 @@ The project uses a **Makefile-driven** workflow, allowing for easy simulation an
 - **ModelSim / Questa SIM** for simulation.
 - **Cygwin/Bash** environment for executing the Makefile.
 
+bash```
 TARGETS:
        help            - Show the help (this text).
 
