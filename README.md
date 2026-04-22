@@ -17,7 +17,7 @@ This project involves developing a complete System on Chip (SoC) based on the pi
 
 ## Installation
 
-You can clone this repository to your local development environment. There's a makefile script included in the project that's used to compile and build it. You will need to have Altera Quartus II (v13.1) and ModelSim installed in order to be able to run the project. This includes tools for synthesis and simulation of the Verilog source files on a Cyclone III/V FPGA.
+You can clone this repository to your local development environment. There's a makefile script included in the project that's used to compile and build it. You will need to have Altera Quartus II and ModelSim installed in order to be able to run the project. This includes tools for synthesis and simulation of the Verilog source files on a Cyclone III/V FPGA.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
