@@ -33,8 +33,7 @@ The project uses a **Makefile-driven** workflow, allowing for easy simulation an
 - **Cygwin/Bash** environment for executing the Makefile.
 
 TARGETS:
-
-bash```
+```bash
        help            - Show the help (this text).
        
        simul_all       - Compile and simulate the design (Shell-based).
