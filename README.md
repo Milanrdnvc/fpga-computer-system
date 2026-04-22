@@ -36,13 +36,33 @@ The project uses a **Makefile-driven** workflow, allowing for easy simulation an
 To compile the design and run the simulation in ModelSim:
 ```bash
 # Run simulation in shell mode
-make simul_run_sh
+TARGETS:
+       help            - Show the help (this text).
 
-# Run simulation and open ModelSim GUI with waveforms
-make simul_run_gui
+       simul_all       - Compile and simulate the design (Shell-based).
+       simul_lib       - Create the work library.
+       simul_cmp       - Compile the design.
+       simul_run       - Start default simulation (shell-based).
+       simul_run_gui   - Start GUI-based simulation.
+       simul_run_sh    - Start shell-based simulation.
+       simul_wave_old  - Show already existing wave (do not run simulation).
+       simul_wave_new  - Show newly created wave (run simulation).
+       simul_clean     - Clean simulation directory.
 
-# Clean simulation files
-make simul_clean
+       synth_all       - Analyze & Synthesize, Place & Route, Assembly and Static Time Analyze.
+       synth_map       - Map (Analyze & Synthesize).
+       synth_fit       - Fit (Place & Route).
+       synth_asm       - Assemble.
+       synth_sta       - Static Time Analyze.
+       synth_net       - Create post-fit netlist.
+       synth_pgm       - Program the device.
+       synth_clean     - Clean synthesis directory.
+
+       list_all        - Create list for Icarus Verilog, simulation and synthesis
+       list_icarus     - Create list of Icarus Verilog library directories
+       list_simul      - Create list of simulation source files (src/*)
+       list_synth      - Create list of synthesis source files (src/synthesis/*)
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
