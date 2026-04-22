@@ -32,10 +32,11 @@ The project uses a **Makefile-driven** workflow, allowing for easy simulation an
 - **ModelSim / Questa SIM** for simulation.
 - **Cygwin/Bash** environment for executing the Makefile.
 
-bash```
 TARGETS:
-       help            - Show the help (this text).
 
+bash```
+       help            - Show the help (this text).
+       
        simul_all       - Compile and simulate the design (Shell-based).
        simul_lib       - Create the work library.
        simul_cmp       - Compile the design.
@@ -45,7 +46,7 @@ TARGETS:
        simul_wave_old  - Show already existing wave (do not run simulation).
        simul_wave_new  - Show newly created wave (run simulation).
        simul_clean     - Clean simulation directory.
-
+       
        synth_all       - Analyze & Synthesize, Place & Route, Assembly and Static Time Analyze.
        synth_map       - Map (Analyze & Synthesize).
        synth_fit       - Fit (Place & Route).
@@ -54,7 +55,7 @@ TARGETS:
        synth_net       - Create post-fit netlist.
        synth_pgm       - Program the device.
        synth_clean     - Clean synthesis directory.
-
+       
        list_all        - Create list for Icarus Verilog, simulation and synthesis
        list_icarus     - Create list of Icarus Verilog library directories
        list_simul      - Create list of simulation source files (src/*)
